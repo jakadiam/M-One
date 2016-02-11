@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="A1J-dN-QND">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xdw-cs-50Q">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -306,40 +306,6 @@
                                             <outlet property="winView" destination="0pm-rP-mr1" id="TXg-RU-vhD"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="WmN-jJ-t1i" customClass="ResultCell" customModule="M_One" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="138" width="600" height="110"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WmN-jJ-t1i" id="yUv-sv-bUf">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="109.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X0g-iS-TcP">
-                                                    <rect key="frame" x="8" y="0.0" width="47" height="109"/>
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                </view>
-                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HOA-Fn-epP">
-                                                    <rect key="frame" x="545" y="1" width="47" height="109"/>
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                </view>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="X0g-iS-TcP" firstAttribute="bottom" secondItem="HOA-Fn-epP" secondAttribute="bottom" id="0OE-Du-ZXh"/>
-                                                <constraint firstItem="X0g-iS-TcP" firstAttribute="leading" secondItem="yUv-sv-bUf" secondAttribute="leading" id="4U6-Ql-AvV"/>
-                                                <constraint firstItem="HOA-Fn-epP" firstAttribute="leading" secondItem="yUv-sv-bUf" secondAttribute="leading" constant="553" id="7of-HC-c7F"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="HOA-Fn-epP" secondAttribute="trailing" id="96p-rm-hL1"/>
-                                                <constraint firstItem="X0g-iS-TcP" firstAttribute="centerY" secondItem="yUv-sv-bUf" secondAttribute="centerY" id="BN6-Qf-Psm"/>
-                                                <constraint firstItem="HOA-Fn-epP" firstAttribute="top" secondItem="X0g-iS-TcP" secondAttribute="top" id="HvX-P5-i43"/>
-                                                <constraint firstAttribute="trailing" secondItem="X0g-iS-TcP" secondAttribute="trailing" constant="553" id="VMm-zI-4Yk"/>
-                                                <constraint firstAttribute="trailing" secondItem="HOA-Fn-epP" secondAttribute="trailing" id="XYc-cl-7Xf"/>
-                                                <constraint firstItem="HOA-Fn-epP" firstAttribute="top" secondItem="yUv-sv-bUf" secondAttribute="top" id="a7k-db-JUb"/>
-                                                <constraint firstItem="HOA-Fn-epP" firstAttribute="leading" secondItem="yUv-sv-bUf" secondAttribute="leadingMargin" constant="537" id="bbc-Qj-KIF"/>
-                                                <constraint firstAttribute="leadingMargin" secondItem="X0g-iS-TcP" secondAttribute="leading" id="wQx-8Q-NSp"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="winView" destination="X0g-iS-TcP" id="SYo-VU-mCT"/>
-                                        </connections>
-                                    </tableViewCell>
                                 </prototypes>
                                 <sections/>
                             </tableView>
@@ -429,13 +395,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="161.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKo-Bi-s4P">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="161.5"/>
-                                                </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrD-ie-n5Y">
                                                     <rect key="frame" x="0.0" y="114" width="600" height="47"/>
                                                     <state key="normal" title="Button"/>
                                                 </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKo-Bi-s4P">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="161.5"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -447,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WYm-Ek-WTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="-257"/>
+            <point key="canvasLocation" x="1215" y="-269"/>
         </scene>
     </scenes>
     <resources>

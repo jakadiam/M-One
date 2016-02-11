@@ -1,5 +1,5 @@
 framework module Firebase {
-  umbrella header "Firebase.h"
+  umbrella header "Firebase-umbrella.h"
 
   export *
   module * { export * }
