@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7886FD616FABE2388DCADFCA /* Pods_M_One.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049680D5F60E830C17CAC59E /* Pods_M_One.framework */; };
+		C18B01AE1C6A13EF00F6416F /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B01AD1C6A13EE00F6416F /* ResultCell.swift */; };
+		C1BCB8891C606D9100C01B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BCB8881C606D9100C01B3E /* AppDelegate.swift */; };
+		C1BCB88B1C606D9100C01B3E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BCB88A1C606D9100C01B3E /* FirstViewController.swift */; };
+		C1BCB88D1C606D9100C01B3E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BCB88C1C606D9100C01B3E /* SecondViewController.swift */; };
+		C1BCB8901C606D9100C01B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BCB88E1C606D9100C01B3E /* Main.storyboard */; };
+		C1BCB8921C606D9100C01B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BCB8911C606D9100C01B3E /* Assets.xcassets */; };
+		C1BCB8951C606D9100C01B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BCB8931C606D9100C01B3E /* LaunchScreen.storyboard */; };
+		C1BCB8A01C606D9100C01B3E /* M_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BCB89F1C606D9100C01B3E /* M_OneTests.swift */; };
+		C1BCB8AB1C606D9100C01B3E /* M_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BCB8AA1C606D9100C01B3E /* M_OneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1BCB89C1C606D9100C01B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BCB87D1C606D9100C01B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BCB8841C606D9100C01B3E;
+			remoteInfo = "M-One";
+		};
+		C1BCB8A71C606D9100C01B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BCB87D1C606D9100C01B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BCB8841C606D9100C01B3E;
+			remoteInfo = "M-One";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049680D5F60E830C17CAC59E /* Pods_M_One.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M_One.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF587DA6ECBF07C5FDEA5ED /* Pods-M-One.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M-One.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M-One/Pods-M-One.debug.xcconfig"; sourceTree = "<group>"; };
+		828D1A2E22CA0ED592B07762 /* Pods-M-One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M-One.release.xcconfig"; path = "Pods/Target Support Files/Pods-M-One/Pods-M-One.release.xcconfig"; sourceTree = "<group>"; };
+		C18B01AD1C6A13EE00F6416F /* ResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		C1BCB8851C606D9100C01B3E /* M-One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BCB8881C606D9100C01B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1BCB88A1C606D9100C01B3E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C1BCB88C1C606D9100C01B3E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C1BCB88F1C606D9100C01B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1BCB8911C606D9100C01B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BCB8941C606D9100C01B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1BCB8961C606D9100C01B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BCB89B1C606D9100C01B3E /* M-OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M-OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BCB89F1C606D9100C01B3E /* M_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_OneTests.swift; sourceTree = "<group>"; };
+		C1BCB8A11C606D9100C01B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BCB8A61C606D9100C01B3E /* M-OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M-OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BCB8AA1C606D9100C01B3E /* M_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_OneUITests.swift; sourceTree = "<group>"; };
+		C1BCB8AC1C606D9100C01B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BCB8821C606D9100C01B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7886FD616FABE2388DCADFCA /* Pods_M_One.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCB8981C606D9100C01B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCB8A31C606D9100C01B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C60BDD21E760921D33DDAB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CF587DA6ECBF07C5FDEA5ED /* Pods-M-One.debug.xcconfig */,
+				828D1A2E22CA0ED592B07762 /* Pods-M-One.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BE6DE7CD27F99C76822AA94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049680D5F60E830C17CAC59E /* Pods_M_One.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1BCB87C1C606D9100C01B3E = {
+			isa = PBXGroup;
+			children = (
+				C1BCB8871C606D9100C01B3E /* M-One */,
+				C1BCB89E1C606D9100C01B3E /* M-OneTests */,
+				C1BCB8A91C606D9100C01B3E /* M-OneUITests */,
+				C1BCB8861C606D9100C01B3E /* Products */,
+				6C60BDD21E760921D33DDAB9 /* Pods */,
+				8BE6DE7CD27F99C76822AA94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BCB8861C606D9100C01B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCB8851C606D9100C01B3E /* M-One.app */,
+				C1BCB89B1C606D9100C01B3E /* M-OneTests.xctest */,
+				C1BCB8A61C606D9100C01B3E /* M-OneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BCB8871C606D9100C01B3E /* M-One */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCB8881C606D9100C01B3E /* AppDelegate.swift */,
+				C1BCB88A1C606D9100C01B3E /* FirstViewController.swift */,
+				C1BCB88C1C606D9100C01B3E /* SecondViewController.swift */,
+				C1BCB88E1C606D9100C01B3E /* Main.storyboard */,
+				C18B01AD1C6A13EE00F6416F /* ResultCell.swift */,
+				C1BCB8911C606D9100C01B3E /* Assets.xcassets */,
+				C1BCB8931C606D9100C01B3E /* LaunchScreen.storyboard */,
+				C1BCB8961C606D9100C01B3E /* Info.plist */,
+			);
+			path = "M-One";
+			sourceTree = "<group>";
+		};
+		C1BCB89E1C606D9100C01B3E /* M-OneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCB89F1C606D9100C01B3E /* M_OneTests.swift */,
+				C1BCB8A11C606D9100C01B3E /* Info.plist */,
+			);
+			path = "M-OneTests";
+			sourceTree = "<group>";
+		};
+		C1BCB8A91C606D9100C01B3E /* M-OneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCB8AA1C606D9100C01B3E /* M_OneUITests.swift */,
+				C1BCB8AC1C606D9100C01B3E /* Info.plist */,
+			);
+			path = "M-OneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BCB8841C606D9100C01B3E /* M-One */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BCB8AF1C606D9100C01B3E /* Build configuration list for PBXNativeTarget "M-One" */;
+			buildPhases = (
+				5FA10E65C687CE4B6F887EBB /* Check Pods Manifest.lock */,
+				C1BCB8811C606D9100C01B3E /* Sources */,
+				C1BCB8821C606D9100C01B3E /* Frameworks */,
+				C1BCB8831C606D9100C01B3E /* Resources */,
+				D80D53D79AD3474622E867BE /* Embed Pods Frameworks */,
+				2CB690BE6EFF75470CB34DB1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M-One";
+			productName = "M-One";
+			productReference = C1BCB8851C606D9100C01B3E /* M-One.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BCB89A1C606D9100C01B3E /* M-OneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BCB8B21C606D9100C01B3E /* Build configuration list for PBXNativeTarget "M-OneTests" */;
+			buildPhases = (
+				C1BCB8971C606D9100C01B3E /* Sources */,
+				C1BCB8981C606D9100C01B3E /* Frameworks */,
+				C1BCB8991C606D9100C01B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BCB89D1C606D9100C01B3E /* PBXTargetDependency */,
+			);
+			name = "M-OneTests";
+			productName = "M-OneTests";
+			productReference = C1BCB89B1C606D9100C01B3E /* M-OneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1BCB8A51C606D9100C01B3E /* M-OneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BCB8B51C606D9100C01B3E /* Build configuration list for PBXNativeTarget "M-OneUITests" */;
+			buildPhases = (
+				C1BCB8A21C606D9100C01B3E /* Sources */,
+				C1BCB8A31C606D9100C01B3E /* Frameworks */,
+				C1BCB8A41C606D9100C01B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BCB8A81C606D9100C01B3E /* PBXTargetDependency */,
+			);
+			name = "M-OneUITests";
+			productName = "M-OneUITests";
+			productReference = C1BCB8A61C606D9100C01B3E /* M-OneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BCB87D1C606D9100C01B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jakadiam;
+				TargetAttributes = {
+					C1BCB8841C606D9100C01B3E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3S98LFU9K8;
+					};
+					C1BCB89A1C606D9100C01B3E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3S98LFU9K8;
+						TestTargetID = C1BCB8841C606D9100C01B3E;
+					};
+					C1BCB8A51C606D9100C01B3E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3S98LFU9K8;
+						TestTargetID = C1BCB8841C606D9100C01B3E;
+					};
+				};
+			};
+			buildConfigurationList = C1BCB8801C606D9100C01B3E /* Build configuration list for PBXProject "M-One" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BCB87C1C606D9100C01B3E;
+			productRefGroup = C1BCB8861C606D9100C01B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BCB8841C606D9100C01B3E /* M-One */,
+				C1BCB89A1C606D9100C01B3E /* M-OneTests */,
+				C1BCB8A51C606D9100C01B3E /* M-OneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BCB8831C606D9100C01B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BCB8951C606D9100C01B3E /* LaunchScreen.storyboard in Resources */,
+				C1BCB8921C606D9100C01B3E /* Assets.xcassets in Resources */,
+				C1BCB8901C606D9100C01B3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCB8991C606D9100C01B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCB8A41C606D9100C01B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB690BE6EFF75470CB34DB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M-One/Pods-M-One-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA10E65C687CE4B6F887EBB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D80D53D79AD3474622E867BE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M-One/Pods-M-One-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BCB8811C606D9100C01B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BCB88D1C606D9100C01B3E /* SecondViewController.swift in Sources */,
+				C1BCB8891C606D9100C01B3E /* AppDelegate.swift in Sources */,
+				C18B01AE1C6A13EF00F6416F /* ResultCell.swift in Sources */,
+				C1BCB88B1C606D9100C01B3E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCB8971C606D9100C01B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BCB8A01C606D9100C01B3E /* M_OneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BCB8A21C606D9100C01B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BCB8AB1C606D9100C01B3E /* M_OneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BCB89D1C606D9100C01B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BCB8841C606D9100C01B3E /* M-One */;
+			targetProxy = C1BCB89C1C606D9100C01B3E /* PBXContainerItemProxy */;
+		};
+		C1BCB8A81C606D9100C01B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BCB8841C606D9100C01B3E /* M-One */;
+			targetProxy = C1BCB8A71C606D9100C01B3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1BCB88E1C606D9100C01B3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BCB88F1C606D9100C01B3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1BCB8931C606D9100C01B3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BCB8941C606D9100C01B3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1BCB8AD1C606D9100C01B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1BCB8AE1C606D9100C01B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BCB8B01C606D9100C01B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF587DA6ECBF07C5FDEA5ED /* Pods-M-One.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/M-One",
+				);
+				INFOPLIST_FILE = "M-One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandasoft.M-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1BCB8B11C606D9100C01B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828D1A2E22CA0ED592B07762 /* Pods-M-One.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/M-One",
+				);
+				INFOPLIST_FILE = "M-One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandasoft.M-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1BCB8B31C606D9100C01B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "M-OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandasoft.M-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M-One.app/M-One";
+			};
+			name = Debug;
+		};
+		C1BCB8B41C606D9100C01B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "M-OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandasoft.M-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M-One.app/M-One";
+			};
+			name = Release;
+		};
+		C1BCB8B61C606D9100C01B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "M-OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandasoft.M-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "M-One";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1BCB8B71C606D9100C01B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "M-OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pandasoft.M-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "M-One";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BCB8801C606D9100C01B3E /* Build configuration list for PBXProject "M-One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BCB8AD1C606D9100C01B3E /* Debug */,
+				C1BCB8AE1C606D9100C01B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BCB8AF1C606D9100C01B3E /* Build configuration list for PBXNativeTarget "M-One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BCB8B01C606D9100C01B3E /* Debug */,
+				C1BCB8B11C606D9100C01B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BCB8B21C606D9100C01B3E /* Build configuration list for PBXNativeTarget "M-OneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BCB8B31C606D9100C01B3E /* Debug */,
+				C1BCB8B41C606D9100C01B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BCB8B51C606D9100C01B3E /* Build configuration list for PBXNativeTarget "M-OneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BCB8B61C606D9100C01B3E /* Debug */,
+				C1BCB8B71C606D9100C01B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BCB87D1C606D9100C01B3E /* Project object */;
+}
