@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xdw-cs-50Q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tTf-9w-eCv">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -18,20 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="M1 app" translatesAutoresizingMaskIntoConstraints="NO" id="CLs-3R-DdH">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsc-CY-ADL">
-                                <rect key="frame" x="235" y="340" width="130" height="41"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="M1 app" translatesAutoresizingMaskIntoConstraints="NO" id="CLs-3R-DdH">
+                                <rect key="frame" x="0.0" y="-1" width="600" height="601"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="2aE-5I-g0w"/>
+                                    <constraint firstAttribute="width" constant="600" id="JTB-mh-YUh"/>
+                                    <constraint firstAttribute="height" constant="601" id="VTq-0x-fyr"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsc-CY-ADL">
+                                <rect key="frame" x="235" y="393" width="130" height="41"/>
+                                <constraints>
                                     <constraint firstAttribute="width" constant="130" id="Rxf-F6-d29"/>
+                                    <constraint firstAttribute="height" constant="41" id="nxr-ts-o5G"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="M1-5"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chx-lg-lGq">
-                                <rect key="frame" x="235" y="389" width="130" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chx-lg-lGq">
+                                <rect key="frame" x="235" y="442" width="130" height="41"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="77A-Bl-IMP"/>
                                     <constraint firstAttribute="height" constant="41" id="tZC-aF-zC5"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="M1-6"/>
@@ -43,8 +48,11 @@
                             <constraint firstItem="Bsc-CY-ADL" firstAttribute="leading" secondItem="Chx-lg-lGq" secondAttribute="leading" id="Fj9-HH-MRx"/>
                             <constraint firstItem="Bsc-CY-ADL" firstAttribute="trailing" secondItem="Chx-lg-lGq" secondAttribute="trailing" id="InQ-kZ-D5y"/>
                             <constraint firstItem="CLs-3R-DdH" firstAttribute="top" secondItem="pBH-ro-Fo5" secondAttribute="top" id="jGQ-PU-BTR"/>
+                            <constraint firstItem="Bsc-CY-ADL" firstAttribute="centerX" secondItem="CLs-3R-DdH" secondAttribute="centerX" id="jMW-Ma-aAu"/>
                             <constraint firstItem="CLs-3R-DdH" firstAttribute="centerX" secondItem="Bsc-CY-ADL" secondAttribute="centerX" id="kge-iz-ntS"/>
+                            <constraint firstItem="Bsc-CY-ADL" firstAttribute="top" secondItem="CLs-3R-DdH" secondAttribute="bottom" constant="-207" id="kss-Hg-H1U"/>
                             <constraint firstAttribute="trailing" secondItem="CLs-3R-DdH" secondAttribute="trailing" id="nTg-iq-qeU"/>
+                            <constraint firstItem="Bsc-CY-ADL" firstAttribute="centerX" secondItem="CLs-3R-DdH" secondAttribute="centerX" id="t5b-VV-kte"/>
                             <constraint firstItem="CLs-3R-DdH" firstAttribute="centerY" secondItem="pBH-ro-Fo5" secondAttribute="centerY" id="yHp-YQ-Wu4"/>
                             <constraint firstItem="CLs-3R-DdH" firstAttribute="leading" secondItem="pBH-ro-Fo5" secondAttribute="leading" id="zng-zg-zBO"/>
                         </constraints>
@@ -383,8 +391,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FXe-Sh-DgF">
+                                <rect key="frame" x="0.0" y="-9" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="h8x-WB-A6G"/>
+                                </items>
+                            </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="162" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X6G-AO-NGg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="28" width="600" height="565"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -395,13 +409,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="161.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKo-Bi-s4P">
+                                                    <rect key="frame" x="0.0" y="0.5" width="600" height="161.5"/>
+                                                </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrD-ie-n5Y">
-                                                    <rect key="frame" x="0.0" y="114" width="600" height="47"/>
+                                                    <rect key="frame" x="0.0" y="120" width="600" height="39"/>
                                                     <state key="normal" title="Button"/>
                                                 </button>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKo-Bi-s4P">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="161.5"/>
-                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>

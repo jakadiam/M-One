@@ -1,4 +1,4 @@
-`//
+//
 //  ResultCell.swift
 //  M-One
 //
